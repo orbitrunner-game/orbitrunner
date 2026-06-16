@@ -805,7 +805,7 @@ export default function Game3D({ onProgress, onLoadComplete }: Game3DProps) {
     }
   }
 
-  const moveLeft = () => {
+  const moveRight = () => {
     if (stateRef.current.isPlaying)
       stateRef.current.laneTarget = Math.max(
         0,
@@ -813,7 +813,7 @@ export default function Game3D({ onProgress, onLoadComplete }: Game3DProps) {
       );
   };
 
-  const moveRight = () => {
+  const moveLeft = () => {
     if (stateRef.current.isPlaying)
       stateRef.current.laneTarget = Math.min(
         stateRef.current.lanes - 1,
