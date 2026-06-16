@@ -418,6 +418,19 @@ export default function Home() {
             How to Play
           </button>
         </div>
+
+        <a
+          href="https://x.com/orbitrunnergame"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "#94a3b8",
+            transition: "all 0.2s",
+          }}
+          onMouseOver={(e) => (e.currentTarget.style.color = "#00ffff")}
+          onMouseOut={(e) => (e.currentTarget.style.color = "#94a3b8")}>
+          {/* <XIcon size={22} /> */}X @Orbitrunnergame
+        </a>
       </nav>
 
       <section
