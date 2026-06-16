@@ -396,6 +396,7 @@ export default function Home() {
             color: "#ffffff",
             letterSpacing: "2px",
             cursor: "pointer",
+            textAlign: "center",
           }}
           onClick={() => scrollToSection(heroSectionRef)}>
           ORBIT RUNNER
